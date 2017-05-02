@@ -1,0 +1,7 @@
+.header{
+    margin-top: 0;
+}
+
+.header > .headerText{
+    margin-left: 1%;
+}
