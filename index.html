@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>NHS Trumpets</title>
+    <title>Calc House</title>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -26,11 +26,32 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/problem.js"></script>
     <script type="text/javascript" src="js/index.js"></script>
 </head>
 <body>
-<div class="card horizontal grey darken-3 header white-text">
-    <h1 class="headerText">Hello</h1>
+<div class="card horizontal grey darken-3 header white-text" style="text-align: center">
+    <h3 class="headerText">CalcHouse</h3>
+</div>
+<div class="main">
+
+
+<div class="problemImg">
+    <img src="download.jpg">
+</div>
+<div class="problemText">
+    <h3 class="pT">What is this cat up to?</h3>
+</div>
+<div class="answers">
+    <img src="./buttons/A.png" class="btnImg" onclick="submit('a')" style="cursor: pointer">
+    <img src="./buttons/B.png" class="btnImg" onclick="submit('b')" style="cursor: pointer">
+    <img src="./buttons/C.png" class="btnImg" onclick="submit('c')" style="cursor: pointer">
+    <br>
+    <img src="./buttons/D.png" class="btnImg" onclick="submit('d')" style="cursor: pointer">
+    <img src="./buttons/E.png" class="btnImg" onclick="submit('e')" style="cursor: pointer">
+    <img src="./buttons/F.png" class="btnImg" onclick="submit('f')" style="cursor: pointer">
+    <img src="./buttons/G.png" class="btnImg" onclick="submit('g')" style="cursor: pointer">
+</div>
 </div>
 </body>
 </html>

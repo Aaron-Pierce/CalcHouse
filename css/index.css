@@ -1,7 +1,27 @@
 .header{
     margin-top: 0;
+    display: flex;
+    justify-content: center;
+    height: 5%;
 }
 
 .header > .headerText{
-    margin-left: 1%;
+    /*margin-left: 1%;*/
+}
+
+body{
+    text-align: center;
+}
+.problemImg{
+    width: 50%;
+    height: 50%;
+    margin-left: 25%;
+}
+.problemImg > img{
+    width: 100%;
+    height: 100%;
+}
+.btnImg{
+    width: 20%;
+    height: 20%;
 }
